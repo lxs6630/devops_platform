@@ -1,1 +1,1 @@
-jenkins日志查看
+jenkins鏃ュ織鏌ョ湅

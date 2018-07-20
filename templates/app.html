@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>devops platform</title>
+</head>
+<body>
+    <form action={%url "jenkins_url" %} method="post"  enctype="multipart/form-data">
+        <div>jenkins地址:<input type="text" name="remote_ip" value="http://10.203.105.90:8500"></div>
+        <div>项目:<input type="text" name="project"></div>
+        <div><input type="file" name="文件" value=""></div>
+        <div><input type="submit"  value="提交"></div>
+        {%csrf_token%}
+    </form>
+    <div style="background: lawngreen">你选择的项目：{{selection}}</div>
+</body>
+</html>

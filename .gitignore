@@ -1,2 +1,2 @@
 /.idea/*
-*.conf
+/jenkin_ops/*.conf

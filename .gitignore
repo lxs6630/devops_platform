@@ -1,2 +1,4 @@
 /jenkins_ops/*.conf
 /.idea/*
+*.yaml
+*.yml

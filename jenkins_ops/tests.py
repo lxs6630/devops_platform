@@ -13,5 +13,7 @@ for i in dir_list:
         pass
 # for i in dir_list:
 #     if os.path.isdir(i):
+
+
 #         if not os.listdir(i):
 #             os.rmdir(i)

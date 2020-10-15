@@ -4,4 +4,4 @@ log_level=logging.INFO
 log_file='jenkins_ops.log'
 backup_count=2
 
-rs = 2
+rs = 3
